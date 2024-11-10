@@ -1,0 +1,73 @@
+<html>
+    <head><title>Form</title></head>
+    <body>
+        <fieldset>
+            <legend><h1>Enquiry Form</h1></legend>
+            <form method="" action="">
+             <label>Gender</label><br>  
+             <input type="radio" value="male" name="gender" />Male
+             <input type="radio" value="Female" name="gender" />Female
+             <input type="radio" value="Others" name="gender" />Others
+
+             <br>
+             <label>Name</label><br/>
+             <input type="text" pattern="[a-zA-Z]{3,40}" placeholder="Enter the Name" name="uname" />
+             <br/>
+            
+             <label>Course</label><br/>
+             <input type="checkbox" value="php" />PHP <input type="checkbox" value="java" />JAVA
+             <input type="checkbox" value="C" />C <input type="checkbox" value="c++" />C++
+             
+             <label>Email</label><br/>
+             <input type="email" placeholder="Enter The Email" name="umaile" /><br/>
+
+             <label>Phone</label><br/>
+             <input type="tel" pattern="[0-9]{10}"title="Enter the valid phone number with 10 digit" 
+             placeholder="Enter The Phone" name="uphone" /><br/>
+
+             
+             <label>Message</label><br/>
+             <textarea></textarea><br/>
+             
+             <label>Photo</label><br/>
+             <input type="file" /> <br/>
+
+             <label>Password<label> <br/>
+             <input type="password" /> <br/>
+
+             <label>Country</label> <br/>
+             <select>
+                <option>----Select Country----</option>
+                <option>Ind</option>
+                <option>Aus</option>
+                <option>Eng</option>
+                <option>Pak</option>
+                <option>Sa</option>
+                <option>Wi</option>
+                <option>Nz</option>
+                <option>Sl</option>
+                <option>Afg</option>
+                <option>Zim</option>
+             </select></br>
+
+             <label>Course</label><br/>
+               <select>
+                  <optgroup label="Frontend">
+                       <option>HTML</option>
+                       <option>CSS</option>
+                       <option>JS</option>
+                    </optgroup>
+
+                     <optgroup label="Backend">
+                        <option>PHP</option>
+                        <option>NODE</option>
+                        <option>MYSQL</option>
+                     </optgroup>
+               </select>
+             <button type="submit">Save</button>
+             <input type="submit" value="Go" />
+                            
+            </form>
+        </fieldset>
+    </body>
+</html>
